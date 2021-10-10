@@ -16,8 +16,4 @@ function changeBackground () {
     const select = document.getElementById("colors");
     const color = select.options[select.selectedIndex].value;
     document.body.style.background = color;
-    
-    
-
-    
 }
